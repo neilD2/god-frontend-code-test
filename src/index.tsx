@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { StyleProvider, ThemePicker } from 'vcc-ui';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <StyleProvider>
+        <ThemePicker variant="light">
+            <App />
+        </ThemePicker>
+    </StyleProvider>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
