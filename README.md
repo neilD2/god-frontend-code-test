@@ -39,3 +39,22 @@ Two extra SVG icons are also provided by our designer which are stored under `do
 ## Bonus Points:
 - If you use our design system component library, [VCC-UI](https://vcc-ui.netlify.app)
 - If you add a filter bar on the top to filter cars by `bodyType`
+
+
+# Candidate / my results and feedback
+
+Really enjoyed doing this exercise, good tech stack with a good challange.
+
+Achieved creating the carousel, with the slides / card dynamically generated from the mock car data.
+Used the VCC-UI as much as possilbe.
+
+Carousel works on desktop and mobile.
+
+![ezgif com-gif-maker (23)](https://user-images.githubusercontent.com/3845604/129958880-22022ebe-49e3-4721-821c-79aae112af20.gif)
+
+
+TODO:
+- Seperate getting the api/cars.json and passing that to the Slide / Cards component, this was tricky as the Carousel component wanted an array, and I had the cards in a fragment.
+- Add tests
+- Dots for mobile
+- Commments where needed
